@@ -12,7 +12,7 @@
     $headers[] = 'From: php@me.com';
     $headers[] = 'Cc: anotherphp@me.com';
     $headers[] = 'Content-type: test/plain; charset=utf-8';
-    $authorized = null;
+    $authorized = '-frupybrisman@yahoo.com';
 
     include './includes/process_mail.php';
 
